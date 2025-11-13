@@ -9,7 +9,7 @@ import mysql.connector
 
 app = Flask(__name__, template_folder='D:\Sign _Language_ Detection\Production-Project-\Wed_app\models', static_url_path='/style', static_folder='style')
 # conn = connect_to_database()
-# API_KEY = 'AIzaSyDeXcsOgtW3tNamg0RKuMEKhx0RagLBgF0'
+
 app.secret_key = 'thisismysecret'
 
 ######################## DB CONNECTION ######################
